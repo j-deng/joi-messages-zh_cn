@@ -1,0 +1,15 @@
+module.exports = {
+  "number.base": "{{#label}} 必须为数字",
+  "number.greater": "{{#label}} 必须大于{{#limit}}",
+  "number.infinity": "{{#label}} 不能为无限大",
+  "number.integer": "{{#label}} 必须为整数",
+  "number.less": "{{#label}} 必须小于{{#limit}}",
+  "number.max": "{{#label}} 必须小于等于{{#limit}}",
+  "number.min": "{{#label}} 必须大于等于{{#limit}}",
+  "number.multiple": "{{#label}} 必须为{{#multiple}}的倍数",
+  "number.negative": "{{#label}} 必须为负数",
+  "number.port": "{{#label}} 不是合法的端口",
+  "number.positive": "{{#label}} 必须为正数",
+  "number.precision": "{{#label}} 不能超过小数点{{#limit}}位",
+  "number.unsafe": "{{#label}} 必须为安全数",
+};

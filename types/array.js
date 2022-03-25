@@ -1,0 +1,20 @@
+module.exports = {
+  "array.base": "{{#label}} 必须为数组",
+  "array.excludes": "{{#label}} 包含非法值",
+  "array.hasKnown": "{{#label}} 不包含类型所需的匹配项 {:#patternLabel}",
+  "array.hasUnknown": "{{#label}} 不包含必需的匹配项",
+  "array.includes": "{{#label}} 不包含必需的匹配项",
+  "array.includesRequiredBoth":
+    "{{#label}} 不包含 {{#knownMisses}} 和 {{#unknownMisses}} 其他必需值",
+  "array.includesRequiredKnowns": "{{#label}} 不包含 {{#knownMisses}}",
+  "array.includesRequiredUnknowns": "{{#label}} 不包含 {{#unknownMisses}} 值",
+  "array.length": "{{#label}} 必须包含{{#limit}}个项",
+  "array.max": "{{#label}} 必须包含小于或等于{{#limit}}个项",
+  "array.min": "{{#label}} 必须包含至少{{#limit}}个项",
+  "array.orderedLength": "{{#label}} 最多包含{{#limit}}个项",
+  "array.sort": "{{#label}} 必须按 {#order} 顺序按 {{#by}} 排序",
+  "array.sort.mismatching": "{{#label}} 无类型，不支持排序",
+  "array.sort.unsupported": "{{#label}} {#type} 不支持排序",
+  "array.sparse": "{{#label}} 不能是稀疏数组项",
+  "array.unique": "{{#label}} 包含重复项",
+};

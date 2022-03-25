@@ -1,0 +1,16 @@
+{
+  "name": "joi-messages-zh_cn",
+  "version": "17.0.0",
+  "description": "Joi validation messages translation of Simplified Chinese(zh-cn)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Joi",
+    "i18n"
+  ],
+  "author": "j-deng",
+  "repository": "https://github.com/j-deng/joi-messages-zh_cn",
+  "license": "MIT"
+}
