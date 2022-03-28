@@ -1,8 +1,9 @@
 {
   "name": "joi-messages-zh_cn",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "description": "Joi validation messages translation of Simplified Chinese(zh-cn)",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
